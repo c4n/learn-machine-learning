@@ -11,14 +11,14 @@ $\frac{\partial E}{\partial \mathbf{w}} = 0$
             
 Note that:     
 
-$y(x, \mathbf{w})=w_{0}+w_{1} x+w_{2} x^{2}+\ldots+w_{M} x^{M}=\sum_{j=0}^{M} w_{j} x^{j}$ - (1.1)     
-$E(\mathbf{w})=\frac{1}{2} \sum_{n=1}^{N}\left\{y\left(x_{n}, \mathbf{w}\right)-t_{n}\right\}^{2}$ - (1.2)         
+$y(x, \mathbf{w})=w_{0}+w_{1} x+w_{2} x^{2}+\ldots+w_{M} x^{M}=\sum_{j=0}^{M} w_{j} x^{j}$ -- (1.1)     
+$E(\mathbf{w})=\frac{1}{2} \sum_{n=1}^{N}\left\{y\left(x_{n}, \mathbf{w}\right)-t_{n}\right\}^{2}$ -- (1.2)         
 
 
 
 Step 1:           
-Plug in (1.1) into (1.2)      
-$E(\mathbf{w})=\frac{1}{2} \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} \left(x_{n}  \right)^{j}  \right)-t_{n}\right\}^{2}$      
+>> Plug in (1.1) into (1.2)      
+>> $E(\mathbf{w})=\frac{1}{2} \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} \left(x_{n}  \right)^{j}  \right)-t_{n}\right\}^{2}$      
 
 Step 2: 
 Use [chain rule](https://www.khanacademy.org/math/differential-calculus/dc-chain) and [partial derivative](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives) to derive $\frac{\partial E}{\partial w_i}$       
