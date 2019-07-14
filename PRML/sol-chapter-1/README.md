@@ -32,3 +32,6 @@ Step 3:
 Step 4:               
 Change [the order of summation](https://en.wikipedia.org/wiki/Summation#Identities)   (With multiple sums, the order of summation is not important, provided the bounds on the inner sum don’t depend on the index of the outer sum)                 
 <img src="/PRML/sol-chapter-1/tex/088b73538968309f75c898ff868ed658.svg?invert_in_darkmode&sanitize=true" align=middle width=372.4676604pt height=37.80850590000001pt/> 
+                   
+Hence,                  
+<img src="/PRML/sol-chapter-1/tex/73c0dccc85d63aaea1af498011d37299.svg?invert_in_darkmode&sanitize=true" align=middle width=122.43733259999999pt height=32.256008400000006pt/>
