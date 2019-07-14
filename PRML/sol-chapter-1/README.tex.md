@@ -23,4 +23,4 @@ $E(\mathbf{w})=\frac{1}{2} \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} x^{j
 Step 2: 
 Use [chain rule](https://www.khanacademy.org/math/differential-calculus/dc-chain) and [partial derivative](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives) to derive $\frac{\partial E}{\partial w_i}$       
                           
-$\frac{\partial E}{\partial w_i} = \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} x^{j}_{n}  \right)-t_{n}\right\}x^{i}{n} $  
+$\frac{\partial E}{\partial w_i} = \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} x^{j}_{n}  \right)-t_{n}\right\}x^{i}_{n} $  
