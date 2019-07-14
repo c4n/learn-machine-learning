@@ -23,7 +23,7 @@ Plug in (1.1) into (1.2)
 Step 2: 
 Use [chain rule](https://www.khanacademy.org/math/differential-calculus/dc-chain) and [partial derivative](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives) to derive <img src="/PRML/sol-chapter-1/tex/6a771672bde41186f4fb6eefd762599d.svg?invert_in_darkmode&sanitize=true" align=middle width=22.444817999999994pt height=28.92634470000001pt/>       
                           
-<img src="/PRML/sol-chapter-1/tex/65c8e5cdc2399d82dfc54d91f7610102.svg?invert_in_darkmode&sanitize=true" align=middle width=313.25025765pt height=37.80850590000001pt/> 
+<img src="/PRML/sol-chapter-1/tex/041279d84da164a9865c84331c07ff84.svg?invert_in_darkmode&sanitize=true" align=middle width=341.17454415000003pt height=37.80850590000001pt/> 
 
 Step 3:            
                           
