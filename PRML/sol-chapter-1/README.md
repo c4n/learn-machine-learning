@@ -11,14 +11,14 @@ To find extrema: we look for the points where the derivatives are 0.
             
 Note that:     
 
-<img src="/PRML/sol-chapter-1/tex/b584facb31bf4b558b1740276893c710.svg?invert_in_darkmode&sanitize=true" align=middle width=407.22455729999996pt height=32.256008400000006pt/> - (1.1)     
-<img src="/PRML/sol-chapter-1/tex/4c159655574163a7be6fd8e45fc512c5.svg?invert_in_darkmode&sanitize=true" align=middle width=242.32595145pt height=32.256008400000006pt/> - (1.2)         
+<img src="/PRML/sol-chapter-1/tex/b584facb31bf4b558b1740276893c710.svg?invert_in_darkmode&sanitize=true" align=middle width=407.22455729999996pt height=32.256008400000006pt/> -- (1.1)     
+<img src="/PRML/sol-chapter-1/tex/4c159655574163a7be6fd8e45fc512c5.svg?invert_in_darkmode&sanitize=true" align=middle width=242.32595145pt height=32.256008400000006pt/> -- (1.2)         
 
 
 
 Step 1:           
-Plug in (1.1) into (1.2)      
-<img src="/PRML/sol-chapter-1/tex/8b399fe9f7df55d5d1bc8cfd43b33a24.svg?invert_in_darkmode&sanitize=true" align=middle width=306.8525196pt height=44.51174640000002pt/>      
+>> Plug in (1.1) into (1.2)      
+>> <img src="/PRML/sol-chapter-1/tex/8b399fe9f7df55d5d1bc8cfd43b33a24.svg?invert_in_darkmode&sanitize=true" align=middle width=306.8525196pt height=44.51174640000002pt/>      
 
 Step 2: 
 Use [chain rule](https://www.khanacademy.org/math/differential-calculus/dc-chain) and [partial derivative](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives) to derive <img src="/PRML/sol-chapter-1/tex/6a771672bde41186f4fb6eefd762599d.svg?invert_in_darkmode&sanitize=true" align=middle width=22.444817999999994pt height=28.92634470000001pt/>       
