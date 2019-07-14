@@ -23,4 +23,8 @@ Plug in (1.1) into (1.2)
 Step 2: 
 Use [chain rule](https://www.khanacademy.org/math/differential-calculus/dc-chain) and [partial derivative](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives) to derive <img src="/PRML/sol-chapter-1/tex/6a771672bde41186f4fb6eefd762599d.svg?invert_in_darkmode&sanitize=true" align=middle width=22.444817999999994pt height=28.92634470000001pt/>       
                           
-<img src="/PRML/sol-chapter-1/tex/886c733a48d0e8d7fda3453c511fe969.svg?invert_in_darkmode&sanitize=true" align=middle width=269.50609785pt height=37.80850590000001pt/>  
+<img src="/PRML/sol-chapter-1/tex/65c8e5cdc2399d82dfc54d91f7610102.svg?invert_in_darkmode&sanitize=true" align=middle width=313.25025765pt height=37.80850590000001pt/> 
+
+Step 3:            
+                          
+<img src="/PRML/sol-chapter-1/tex/5261593cb1e008e24c0903820d09579c.svg?invert_in_darkmode&sanitize=true" align=middle width=279.3822669pt height=37.80850590000001pt/> 
