@@ -17,21 +17,21 @@ $E(\mathbf{w})=\frac{1}{2} \sum_{n=1}^{N}\left\{y\left(x_{n}, \mathbf{w}\right)-
 
 
 Step 1:           
->> Plug in (1.1) into (1.2)      
->> $E(\mathbf{w})=\frac{1}{2} \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} \left(x_{n}  \right)^{j}  \right)-t_{n}\right\}^{2}$      
+Plug in (1.1) into (1.2)      
+> $E(\mathbf{w})=\frac{1}{2} \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} \left(x_{n}  \right)^{j}  \right)-t_{n}\right\}^{2}$      
 
 Step 2: 
 Use [chain rule](https://www.khanacademy.org/math/differential-calculus/dc-chain) and [partial derivative](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives) to derive $\frac{\partial E}{\partial w_i}$       
                           
-$\frac{\partial E}{\partial w_i} = \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} \left(x_{n}  \right)^{j}  \right)-t_{n}\right\}\left(x_{n}  \right)^{i}= 0 $ 
+> $\frac{\partial E}{\partial w_i} = \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} \left(x_{n}  \right)^{j}  \right)-t_{n}\right\}\left(x_{n}  \right)^{i}= 0 $ 
 
 Step 3:            
                           
-$\frac{\partial E}{\partial w_i} = \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} \left(x_{n}  \right)^{i+j}  \right)- \left(x_{n}  \right)^{i} t_{n}  \right\ }= 0 $ 
+> $\frac{\partial E}{\partial w_i} = \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} \left(x_{n}  \right)^{i+j}  \right)- \left(x_{n}  \right)^{i} t_{n}  \right\ }= 0 $ 
 
 Step 4:               
 Change [the order of summation](https://en.wikipedia.org/wiki/Summation#Identities)   (With multiple sums, the order of summation is not important, provided the bounds on the inner sum don’t depend on the index of the outer sum)                 
-$\frac{\partial E}{\partial w_i} =\sum_{j=0}^{M} \left\{ \left(\sum_{n=1}^{N} \left(x_{n}  \right)^{i+j}  \right)  w_{j} \right\} = \sum_{n=1}^{N} \left(x_{n}  \right)^{i} t_{n}  $ 
+> $\frac{\partial E}{\partial w_i} =\sum_{j=0}^{M} \left\{ \left(\sum_{n=1}^{N} \left(x_{n}  \right)^{i+j}  \right)  w_{j} \right\} = \sum_{n=1}^{N} \left(x_{n}  \right)^{i} t_{n}  $ 
                    
 Hence,                  
-$\sum_{j=0}^{M} A_{i j} w_{j}=T_{i}$
+> $\sum_{j=0}^{M} A_{i j} w_{j}=T_{i}$
