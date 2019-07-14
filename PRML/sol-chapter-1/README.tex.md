@@ -18,7 +18,7 @@ $E(\mathbf{w})=\frac{1}{2} \sum_{n=1}^{N}\left\{y\left(x_{n}, \mathbf{w}\right)-
 
 Step 1:           
 Plug in (1.1) into (1.2)      
-$E(\mathbf{w})=\frac{1}{2} \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} x^{j}_{n}  \right)-t_{n}\right\}^{2}$      
+$E(\mathbf{w})=\frac{1}{2} \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} \left(x_{n}  \right)^{j}  \right)-t_{n}\right\}^{2}$      
 
 Step 2: 
 Use [chain rule](https://www.khanacademy.org/math/differential-calculus/dc-chain) and [partial derivative](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives) to derive $\frac{\partial E}{\partial w_i}$       
@@ -27,4 +27,4 @@ $\frac{\partial E}{\partial w_i} = \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_
 
 Step 3:            
                           
-$\frac{\partial E}{\partial w_i} = \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} x^{j}_{n}  \right)-t_{n}\right\}= 0 $ 
+$\frac{\partial E}{\partial w_i} = \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} \left(x_{n}  \right)^{i+j}  \right)\right)-\left(x_{n}  \right)^{i} t_{n}\right\} = 0 $ 
