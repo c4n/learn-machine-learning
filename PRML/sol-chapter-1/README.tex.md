@@ -31,7 +31,7 @@ $\frac{\partial E}{\partial w_i} = \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_
 
 Step 4:               
 Change [the order of summation](https://en.wikipedia.org/wiki/Summation#Identities)   (With multiple sums, the order of summation is not important, provided the bounds on the inner sum don’t depend on the index of the outer sum)                 
-$\frac{\partial E}{\partial w_i} =\sum_{j=0}^{M} \left\{ \left(\sum_{n=1}^{N} w_{j} \left(x_{n}  \right)^{i+j}  \right) \right\} = \sum_{n=1}^{N} \left(x_{n}  \right)^{i} t_{n}  $ 
+$\frac{\partial E}{\partial w_i} =\sum_{j=0}^{M} \left\{ \left(\sum_{n=1}^{N} \left(x_{n}  \right)^{i+j} w_{j}  \right) \right\} = \sum_{n=1}^{N} \left(x_{n}  \right)^{i} t_{n}  $ 
                    
 Hence,                  
 $\sum_{j=0}^{M} A_{i j} w_{j}=T_{i}$
