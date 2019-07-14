@@ -30,5 +30,5 @@ Step 3:
 $\frac{\partial E}{\partial w_i} = \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} \left(x_{n}  \right)^{i+j}  \right)- \left(x_{n}  \right)^{i} t_{n}  \right\ }= 0 $ 
 
 Step 4:               
-                   
-$\frac{\partial E}{\partial w_i} = \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} \left(x_{n}  \right)^{i+j}  \right) \right\} = \sum_{n=1}^{N} \left(x_{n}  \right)^{i} t_{n}  $ 
+Change [the order of summation](https://en.wikipedia.org/wiki/Summation#Identities)   (With multiple sums, the order of summation is not important, provided thebounds on the inner sum don’t depend on the index of the outer sum)                 
+$\frac{\partial E}{\partial w_i} =\sum_{j=0}^{M} \left\{ \left(\sum_{n=1}^{N} w_{j} \left(x_{n}  \right)^{i+j}  \right) \right\} = \sum_{n=1}^{N} \left(x_{n}  \right)^{i} t_{n}  $ 
