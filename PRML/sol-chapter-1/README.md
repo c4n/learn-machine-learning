@@ -30,5 +30,5 @@ Step 3:
 <img src="/PRML/sol-chapter-1/tex/3312332a99ece9e53b0bb1f71ea43631.svg?invert_in_darkmode&sanitize=true" align=middle width=352.40989575000003pt height=37.80850590000001pt/> 
 
 Step 4:               
-                   
-<img src="/PRML/sol-chapter-1/tex/701dcbf1962e53b793e51120ba32d727.svg?invert_in_darkmode&sanitize=true" align=middle width=372.4676604pt height=37.80850590000001pt/> 
+Change [the order of summation](https://en.wikipedia.org/wiki/Summation#Identities)   (With multiple sums, the order of summation is not important, provided thebounds on the inner sum don’t depend on the index of the outer sum)                 
+<img src="/PRML/sol-chapter-1/tex/088b73538968309f75c898ff868ed658.svg?invert_in_darkmode&sanitize=true" align=middle width=372.4676604pt height=37.80850590000001pt/> 
