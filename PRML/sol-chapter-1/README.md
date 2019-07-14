@@ -28,3 +28,6 @@ Use [chain rule](https://www.khanacademy.org/math/differential-calculus/dc-chain
 Step 3:            
                           
 <img src="/PRML/sol-chapter-1/tex/3312332a99ece9e53b0bb1f71ea43631.svg?invert_in_darkmode&sanitize=true" align=middle width=352.40989575000003pt height=37.80850590000001pt/> 
+
+Step 4: 
+<img src="/PRML/sol-chapter-1/tex/687947651394e80f31f5a51000dbe61a.svg?invert_in_darkmode&sanitize=true" align=middle width=368.96076359999995pt height=37.80850590000001pt/> 
