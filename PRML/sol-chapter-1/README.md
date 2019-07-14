@@ -18,7 +18,7 @@ Note that:
 
 Step 1:           
 Plug in (1.1) into (1.2)      
-<img src="/PRML/sol-chapter-1/tex/9bff1d2288dbdd01293a768ac5d2c307.svg?invert_in_darkmode&sanitize=true" align=middle width=284.40103065pt height=44.51174640000002pt/>      
+<img src="/PRML/sol-chapter-1/tex/8b399fe9f7df55d5d1bc8cfd43b33a24.svg?invert_in_darkmode&sanitize=true" align=middle width=306.8525196pt height=44.51174640000002pt/>      
 
 Step 2: 
 Use [chain rule](https://www.khanacademy.org/math/differential-calculus/dc-chain) and [partial derivative](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives) to derive <img src="/PRML/sol-chapter-1/tex/6a771672bde41186f4fb6eefd762599d.svg?invert_in_darkmode&sanitize=true" align=middle width=22.444817999999994pt height=28.92634470000001pt/>       
@@ -27,4 +27,4 @@ Use [chain rule](https://www.khanacademy.org/math/differential-calculus/dc-chain
 
 Step 3:            
                           
-<img src="/PRML/sol-chapter-1/tex/5261593cb1e008e24c0903820d09579c.svg?invert_in_darkmode&sanitize=true" align=middle width=279.3822669pt height=37.80850590000001pt/> 
+<img src="/PRML/sol-chapter-1/tex/36d33a04b1a7339947414e400e33d7d3.svg?invert_in_darkmode&sanitize=true" align=middle width=354.7752417pt height=37.80850590000001pt/> 
