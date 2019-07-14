@@ -27,4 +27,4 @@ Use [chain rule](https://www.khanacademy.org/math/differential-calculus/dc-chain
 
 Step 3:            
                           
-<img src="/PRML/sol-chapter-1/tex/36d33a04b1a7339947414e400e33d7d3.svg?invert_in_darkmode&sanitize=true" align=middle width=354.7752417pt height=37.80850590000001pt/> 
+<img src="/PRML/sol-chapter-1/tex/3a32ca89683172949b810fae41d5a2b2.svg?invert_in_darkmode&sanitize=true" align=middle width=355.91679089999997pt height=37.80850590000001pt/> 
