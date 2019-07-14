@@ -17,21 +17,21 @@ Note that:
 
 
 Step 1:           
->> Plug in (1.1) into (1.2)      
->> <img src="/PRML/sol-chapter-1/tex/8b399fe9f7df55d5d1bc8cfd43b33a24.svg?invert_in_darkmode&sanitize=true" align=middle width=306.8525196pt height=44.51174640000002pt/>      
+Plug in (1.1) into (1.2)      
+> <img src="/PRML/sol-chapter-1/tex/8b399fe9f7df55d5d1bc8cfd43b33a24.svg?invert_in_darkmode&sanitize=true" align=middle width=306.8525196pt height=44.51174640000002pt/>      
 
 Step 2: 
 Use [chain rule](https://www.khanacademy.org/math/differential-calculus/dc-chain) and [partial derivative](https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives) to derive <img src="/PRML/sol-chapter-1/tex/6a771672bde41186f4fb6eefd762599d.svg?invert_in_darkmode&sanitize=true" align=middle width=22.444817999999994pt height=28.92634470000001pt/>       
                           
-<img src="/PRML/sol-chapter-1/tex/041279d84da164a9865c84331c07ff84.svg?invert_in_darkmode&sanitize=true" align=middle width=341.17454415000003pt height=37.80850590000001pt/> 
+> <img src="/PRML/sol-chapter-1/tex/041279d84da164a9865c84331c07ff84.svg?invert_in_darkmode&sanitize=true" align=middle width=341.17454415000003pt height=37.80850590000001pt/> 
 
 Step 3:            
                           
-<img src="/PRML/sol-chapter-1/tex/3312332a99ece9e53b0bb1f71ea43631.svg?invert_in_darkmode&sanitize=true" align=middle width=352.40989575000003pt height=37.80850590000001pt/> 
+> <img src="/PRML/sol-chapter-1/tex/3312332a99ece9e53b0bb1f71ea43631.svg?invert_in_darkmode&sanitize=true" align=middle width=352.40989575000003pt height=37.80850590000001pt/> 
 
 Step 4:               
 Change [the order of summation](https://en.wikipedia.org/wiki/Summation#Identities)   (With multiple sums, the order of summation is not important, provided the bounds on the inner sum don’t depend on the index of the outer sum)                 
-<img src="/PRML/sol-chapter-1/tex/724309b9341fb6d71a044f49c0026b7a.svg?invert_in_darkmode&sanitize=true" align=middle width=372.4676604pt height=37.80850590000001pt/> 
+> <img src="/PRML/sol-chapter-1/tex/724309b9341fb6d71a044f49c0026b7a.svg?invert_in_darkmode&sanitize=true" align=middle width=372.4676604pt height=37.80850590000001pt/> 
                    
 Hence,                  
-<img src="/PRML/sol-chapter-1/tex/73c0dccc85d63aaea1af498011d37299.svg?invert_in_darkmode&sanitize=true" align=middle width=122.43733259999999pt height=32.256008400000006pt/>
+> <img src="/PRML/sol-chapter-1/tex/73c0dccc85d63aaea1af498011d37299.svg?invert_in_darkmode&sanitize=true" align=middle width=122.43733259999999pt height=32.256008400000006pt/>
