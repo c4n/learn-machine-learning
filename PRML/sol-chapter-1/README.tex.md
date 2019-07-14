@@ -27,4 +27,4 @@ $\frac{\partial E}{\partial w_i} = \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_
 
 Step 3:            
                           
-$\frac{\partial E}{\partial w_i} = \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} \left(x_{n}  \right)^{i+j}  \right)\right)-\left(x_{n}  \right)^{i} t_{n}\right\} = 0 $ 
+$\frac{\partial E}{\partial w_i} = \sum_{n=1}^{N}\left\{ \left(\sum_{j=0}^{M} w_{j} \left(x_{n}  \right)^{i+j}  \right)- \left(x_{n}  \right)^{i} t_{n}\right\}= 0 $ 
