@@ -37,4 +37,10 @@ Hence,
 > <img src="/PRML/sol-chapter-1/tex/73c0dccc85d63aaea1af498011d37299.svg?invert_in_darkmode&sanitize=true" align=middle width=122.43733259999999pt height=32.256008400000006pt/>
 
 ## Exercise 1.4
-<img src="/PRML/sol-chapter-1/tex/a62a77a62f1a96d2b598f409ba568e73.svg?invert_in_darkmode&sanitize=true" align=middle width=258.07386825000003pt height=37.8085191pt/>  -- (1.27)
+note that: <img src="/PRML/sol-chapter-1/tex/18f9fd9afe60295b59eecd720a1f8e94.svg?invert_in_darkmode&sanitize=true" align=middle width=63.91727264999999pt height=24.65753399999998pt/>      
+<img src="/PRML/sol-chapter-1/tex/a62a77a62f1a96d2b598f409ba568e73.svg?invert_in_darkmode&sanitize=true" align=middle width=258.07386825000003pt height=37.8085191pt/>  -- (1.27)           
+             
+Step 1:          
+derive (1.27) w.r.t. y  using [product rule](https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new/ab-2-8/a/product-rule-review)         
+<img src="/PRML/sol-chapter-1/tex/df4419b4d650dbd5c4d2c578a9852ebb.svg?invert_in_darkmode&sanitize=true" align=middle width=425.35198529999997pt height=43.068412200000004pt/>          
+
