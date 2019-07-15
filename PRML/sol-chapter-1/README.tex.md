@@ -37,3 +37,4 @@ Hence,
 > $\sum_{j=0}^{M} A_{i j} w_{j}=T_{i}$
 
 ## Exercise 1.4
+$p_{y}(y)=p_{x}(x)\left|\frac{\mathrm{d} x}{\mathrm{d} y}\right| = p_{x}(g(y))\left|g^{\prime}(y)\right|$  -- (1.27)
