@@ -35,3 +35,5 @@ Change [the order of summation](https://en.wikipedia.org/wiki/Summation#Identiti
                    
 Hence,                  
 > $\sum_{j=0}^{M} A_{i j} w_{j}=T_{i}$
+
+## Exercise 1.4
