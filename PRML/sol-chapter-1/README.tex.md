@@ -1,5 +1,5 @@
 # Chapter 1 - Introduction
-
+* [Exercise 1.1](##-exercise-1.1)
 ## Exercise 1.1
 In this exercise, we have to show that the solution of the coefficients $\mathbf{w}=\left\{w_{i}\right\}$, that minimize the sum-of-squares error function (1.2) of the polynomial (1.1), can be expressed in a form of $\sum_{j=0}^{M} A_{i j} w_{j}=T_{i}$ (1.122)  where   $A_{i j}=\sum_{n=1}^{N}\left(x_{n}\right)^{i+j}$ and $T_{i}=\sum_{n=1}^{N}\left(x_{n}\right)^{i} t_{n}$        
 
