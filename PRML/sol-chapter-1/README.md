@@ -35,3 +35,5 @@ Change [the order of summation](https://en.wikipedia.org/wiki/Summation#Identiti
                    
 Hence,                  
 > <img src="/PRML/sol-chapter-1/tex/73c0dccc85d63aaea1af498011d37299.svg?invert_in_darkmode&sanitize=true" align=middle width=122.43733259999999pt height=32.256008400000006pt/>
+
+## Exercise 1.4
