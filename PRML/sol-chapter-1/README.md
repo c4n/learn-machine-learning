@@ -37,3 +37,4 @@ Hence,
 > <img src="/PRML/sol-chapter-1/tex/73c0dccc85d63aaea1af498011d37299.svg?invert_in_darkmode&sanitize=true" align=middle width=122.43733259999999pt height=32.256008400000006pt/>
 
 ## Exercise 1.4
+<img src="/PRML/sol-chapter-1/tex/a62a77a62f1a96d2b598f409ba568e73.svg?invert_in_darkmode&sanitize=true" align=middle width=258.07386825000003pt height=37.8085191pt/>  -- (1.27)
