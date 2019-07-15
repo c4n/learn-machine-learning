@@ -37,4 +37,10 @@ Hence,
 > $\sum_{j=0}^{M} A_{i j} w_{j}=T_{i}$
 
 ## Exercise 1.4
-$p_{y}(y)=p_{x}(x)\left|\frac{\mathrm{d} x}{\mathrm{d} y}\right| = p_{x}(g(y))\left|g^{\prime}(y)\right|$  -- (1.27)
+note that: $x = g\left(y\right)$      
+$p_{y}(y)=p_{x}(x)\left|\frac{\mathrm{d} x}{\mathrm{d} y}\right| = p_{x}(g(y))\left|g^{\prime}(y)\right|$  -- (1.27)           
+             
+Step 1:          
+derive (1.27) w.r.t. y  using [product rule](https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new/ab-2-8/a/product-rule-review)         
+$\frac{d p_{y}(y)}{d y}=\frac{d\left(p_{x}(g(y))\left|g^{\prime}(y)\right|\right)}{d y}=\frac{d p_{x}(g(y))}{d y}\left|g^{\prime}(y)\right|+p_{x}(g(y)) \frac{d\left|g^{\prime}(y)\right|}{d y}$          
+
