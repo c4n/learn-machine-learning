@@ -14,5 +14,5 @@ Note: บางครั้งคนมักจะสับสน Generative Ad
 และนี่คือไอเดียแกนหลักของ GAN แต่สมการข้างบนอาจใช้จริงไม่ดีนัก เพราะทำให้ gradient ของฝั่ง G ไม่พอในตอนแรกๆ ที่ G ปลอมไม่เนียนแต่ D แยกแยะเก่งจะทำให้ $D(G(\boldsymbol{z})))$ พ่นค่าใกล้ 0 (อย่าลืมว่า 1 คือของแท้ 0 คือของปลอม) และทำให้ $\log (1-D(G(\boldsymbol{z})))$ ใกล้ 0 เหมือนกันทำให้ไม่มี  gradient ไปเปลี่ยน weight ใน model  เพราะฉะนั้นถ้าหากต้องการนำไปใช้จริงให้ได้ผลดีต้องมีการเปลี่ยนแปลงเพิ่มเติมไปอีก
 
 ## Reading list แนะนำ 
-[NIPS 2016 Tutorial: Generative Adversarial Networks](https://arxiv.org/abs/1701.00160)
+[NIPS 2016 Tutorial: Generative Adversarial Networks](https://arxiv.org/abs/1701.00160)                
 [Generative Adversarial Nets - NIPS 2014 Proceedings](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
