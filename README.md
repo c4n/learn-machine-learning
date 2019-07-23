@@ -1,2 +1,3 @@
 # learn-machine-learning
 tutorials, solutions, and more ...
+ภาษาไทย/English
