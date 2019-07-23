@@ -14,5 +14,5 @@ Note: บางครั้งคนมักจะสับสน Generative Ad
 และนี่คือไอเดียแกนหลักของ GAN แต่สมการข้างบนอาจใช้จริงไม่ดีนัก เพราะทำให้ gradient ของฝั่ง G ไม่พอในตอนแรกๆ ที่ G ปลอมไม่เนียนแต่ D แยกแยะเก่งจะทำให้ <img src="/notes/GAN/tex/03f5a46b4b5ec69700c11b93bb3e6bd3.svg?invert_in_darkmode&sanitize=true" align=middle width=68.77179539999999pt height=24.65753399999998pt/> พ่นค่าใกล้ 0 (อย่าลืมว่า 1 คือของแท้ 0 คือของปลอม) และทำให้ <img src="/notes/GAN/tex/a593675f8f5f6f68dc813b5d6f327253.svg?invert_in_darkmode&sanitize=true" align=middle width=124.70782334999997pt height=24.65753399999998pt/> ใกล้ 0 เหมือนกันทำให้ไม่มี  gradient ไปเปลี่ยน weight ใน model  เพราะฉะนั้นถ้าหากต้องการนำไปใช้จริงให้ได้ผลดีต้องมีการเปลี่ยนแปลงเพิ่มเติมไปอีก
 
 ## Reading list แนะนำ 
-[NIPS 2016 Tutorial: Generative Adversarial Networks](https://arxiv.org/abs/1701.00160)
+[NIPS 2016 Tutorial: Generative Adversarial Networks](https://arxiv.org/abs/1701.00160)                
 [Generative Adversarial Nets - NIPS 2014 Proceedings](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
