@@ -29,6 +29,8 @@ Note: นิยามของ expected value ของ X คือ <img src="/n
 <img src="/notes/GAN4NLP/tex/73d7a61c2deba672dbf12f6ca373c70d.svg?invert_in_darkmode&sanitize=true" align=middle width=191.57973779999998pt height=37.80850590000001pt/>
 
 ตอนนี้เราสามารถประมาณค่าของgradientของแต่ละตัวอย่าง(s_t,a_t)ของtimestep tได้แล้ว ถ้าเราเอา<img src="/notes/GAN4NLP/tex/31a441b8de4d0ef22eb966c88a5963af.svg?invert_in_darkmode&sanitize=true" align=middle width=17.890435199999988pt height=22.465723500000017pt/> มาแทน <img src="/notes/GAN4NLP/tex/2de1d121ec1048dd7e95b343d11b5cef.svg?invert_in_darkmode&sanitize=true" align=middle width=73.07526105pt height=24.65753399999998pt/> เราจะสามารถจัดให้อยู่ในรูปของ REINFORCEMENT update ได้: <img src="/notes/GAN4NLP/tex/5902e7fea0765cefe79bdb1c506e27a4.svg?invert_in_darkmode&sanitize=true" align=middle width=204.70508189999998pt height=33.20539859999999pt/>
+
+[ภาพ REINFORCE algorithm ของ Sutton & Barto](https://i.stack.imgur.com/PL8Lk.png)
 ## Reading List
 [GAN - NAACL 2019](https://drive.google.com/drive/folders/1E4uHe4_TD4yDJws3t1kXJQanUFJiqpBB)                  
 [Generative Adversarial Networks for Text Generation (blog post)](https://becominghuman.ai/generative-adversarial-networks-for-text-generation-part-1-2b886c8cab10)                 
