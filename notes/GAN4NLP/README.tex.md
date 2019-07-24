@@ -30,7 +30,7 @@ $\mathbb{E}_{\pi}\left[q_{\pi}\left(S_{t}, A_{t}\right) \frac{\nabla \pi\left(A_
 
 ตอนนี้เราสามารถประมาณค่าของgradientของแต่ละตัวอย่าง(s_t,a_t)ของtimestep tได้แล้ว ถ้าเราเอา$G_{t}$ มาแทน $q_{\pi}\left(S_{t}, A_{t}\right)$ เราจะสามารถจัดให้อยู่ในรูปของ REINFORCEMENT update ได้: $\boldsymbol{\theta}_{t+1} := \boldsymbol{\theta}_{t}+\alpha G_{t} \frac{\nabla \pi\left(A_{t} | S_{t}, \boldsymbol{\theta}_{t}\right)}{\pi\left(A_{t} | S_{t}, \boldsymbol{\theta}_{t}\right)}$
 
-[ภาพ REINFORCE algorithm ของ Sutton & Barto](https://i.stack.imgur.com/PL8Lk.png)
+![ภาพ REINFORCE algorithm ของ Sutton & Barto](https://i.stack.imgur.com/PL8Lk.png "ภาพ REINFORCE algorithm ของ Sutton & Barto")
 ## Reading List
 [GAN - NAACL 2019](https://drive.google.com/drive/folders/1E4uHe4_TD4yDJws3t1kXJQanUFJiqpBB)                  
 [Generative Adversarial Networks for Text Generation (blog post)](https://becominghuman.ai/generative-adversarial-networks-for-text-generation-part-1-2b886c8cab10)                 
