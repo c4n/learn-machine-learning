@@ -24,7 +24,8 @@ $\mathbb{E}_{\pi}\left[\sum_{a} q_{\pi}\left(S_{t}, a\right) \nabla \pi\left(a |
 Note: นิยามของ expected value ของ X คือ $\mathrm{E}[X]=\sum_{i=1}^{k} x_{i} p_{i}=x_{1} p_{1}+x_{2} p_{2}+\cdots+x_{k} p_{k}$ โดยที่ p คือ prob               
 
 ตอนนี้เราสามารถหาค่าจาก state เดียว (s_t) ได้แล้ว แล้วจะทำยังไงต่อให้หาค่าจาก action เดียวได้ action (a_t)                    
-อย่าลืมว่า $\pi\left(a | S_{t}, \boldsymbol{\theta}\right)$ คือฟังชั่นที่ให้ค่าความแจกแจงของความน่าจะเป็น(probability distribution)ของแต่ละaction ที่state s_t เพราะฉะนั้นเราสามารถลดรูปของมันได้อีก เพราะsummation ของมันก็ดูคล้ายๆ expected value โดยเราจะคูณและหารสมการด้วย$\pi\left(a | S_{t}, \boldsymbol{\theta}\right)$ เราก็จะได้:            
+อย่าลืมว่า $\pi\left(a | S_{t}, \boldsymbol{\theta}\right)$ คือฟังชั่นที่ให้ค่าความแจกแจงของความน่าจะเป็น(probability distribution)ของแต่ละaction ที่state s_t เพราะฉะนั้นเราสามารถลดรูปของมันได้อีก เพราะsummation ของมันก็ดูคล้ายๆ expected value โดยเราจะคูณและหารสมการด้วย$\pi\left(a | S_{t}, \boldsymbol{\theta}\right)$ เราก็จะได้:        
+$\mathbb{E}_{\pi}\left[\sum_{a} \pi\left(a | S_{t}, \boldsymbol{\theta}\right) q_{\pi}\left(S_{t}, a\right) \frac{\nabla \pi\left(a | S_{t}, \boldsymbol{\theta}\right)}{\pi\left(a | S_{t}, \boldsymbol{\theta}\right)}\right]$                      
 $\mathbb{E}_{\pi}\left[q_{\pi}\left(S_{t}, A_{t}\right) \frac{\nabla \pi\left(A_{t} | S_{t}, \boldsymbol{\theta}\right)}{\pi\left(A_{t} | S_{t}, \boldsymbol{\theta}\right)}\right]$
 
 ## Reading List
