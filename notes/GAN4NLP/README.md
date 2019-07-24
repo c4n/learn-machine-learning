@@ -20,7 +20,7 @@ GAN ได้ผลดีในงานหลากหลายแบบโด�
 
 เมื่อ  **𝜇(s)** คือความน่าจะเป็นที่ไปได้ที่จะอยู่ที่ state **s** ถ้าหากทำตาม policy **𝜋**  เราจะมองการบวกรวมด้านนอก(outer summation)ได้ว่าเป็น[expected value](https://en.wikipedia.org/wiki/Expected_value)ของการบวกรวมด้านใน(inner summation): <img src="/notes/GAN4NLP/tex/5438c2fb90db561dcf0582b8a64a2bdc.svg?invert_in_darkmode&sanitize=true" align=middle width=211.55697584999996pt height=24.657735299999988pt/>
 
-Note: นิยามของ expected value ของ X คือ <img src="/notes/GAN4NLP/tex/d80a6cf59402c36f447decf63e8d5c10.svg?invert_in_darkmode&sanitize=true" align=middle width=327.18282465pt height=32.51169900000002pt/>
+Note: นิยามของ expected value ของ X คือ <img src="/notes/GAN4NLP/tex/d80a6cf59402c36f447decf63e8d5c10.svg?invert_in_darkmode&sanitize=true" align=middle width=327.18282465pt height=32.51169900000002pt/> โดยที่ p คือ prob
 
 ตอนนี้เราสามารถหาค่าจาก state เดียว (s_t) ได้แล้ว แล้วจะทำยังไงต่อให้หาค่าจาก action เดียวได้ action (a_t) 
 
