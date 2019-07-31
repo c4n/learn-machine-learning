@@ -34,7 +34,7 @@ $\mathbb{E}_{\pi}\left[q_{\pi}\left(S_{t}, A_{t}\right) \frac{\nabla \pi\left(A_
                 
 **จะจับใส่GANยังไง?**              
 * discriminative model: input คือ ประโยค output บอกว่าประโยคจริงหรือปลอม ซึ่งค่า output เนี่ย generative model จะเอากลับไปอัพเดท policy
-* generative model: $\pi\left(a | s, \theta \right)$ โดยที่ $\theta$ ก็คือพารามิเตอร์ของneural nets ฝั่ง generative model
+* generative model: $\pi\left(a | s, \theta \right)$ โดยที่ $\theta$ ก็คือพารามิเตอร์ของneural nets ฝั่ง generative model ซึ่ง $\theta$  จจะถูก update โดย REINFORCEMENT algorithm ที่กล่าวถึงด้านบน  ส่วน intermediate rewards $R_{k}$ โดยการทำ Monte Carlo Rollout เพื่อสร้างประโยคมาหลายๆประโยคแล้วเอา reward จาก discriminator มาเฉลี่ย
 
 ## Reading List
 [GAN - NAACL 2019](https://drive.google.com/drive/folders/1E4uHe4_TD4yDJws3t1kXJQanUFJiqpBB)                  
