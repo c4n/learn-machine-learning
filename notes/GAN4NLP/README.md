@@ -34,10 +34,8 @@ Note: นิยามของ expected value ของ X คือ <img src="/n
                 
 **จะจับใส่GANยังไง?**              
 * discriminative model: input คือ ประโยค output บอกว่าประโยคจริงหรือปลอม ซึ่งค่า output เนี่ย generative model จะเอากลับไปอัพเดท policy
-* generative model: <img src="/notes/GAN4NLP/tex/f57b64c2994d88ab03f3373049d93cad.svg?invert_in_darkmode&sanitize=true" align=middle width=61.92544544999999pt height=24.65753399999998pt/> โดยที่ <img src="/notes/GAN4NLP/tex/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.17352744999999pt height=22.831056599999986pt/> ก็คือพารามิเตอร์ของneural nets ฝั่ง generative model
-               
+* generative model: <img src="/notes/GAN4NLP/tex/f57b64c2994d88ab03f3373049d93cad.svg?invert_in_darkmode&sanitize=true" align=middle width=61.92544544999999pt height=24.65753399999998pt/> โดยที่ <img src="/notes/GAN4NLP/tex/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.17352744999999pt height=22.831056599999986pt/> ก็คือพารามิเตอร์ของneural nets ฝั่ง generative model ซึ่ง <img src="/notes/GAN4NLP/tex/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.17352744999999pt height=22.831056599999986pt/>  จจะถูก update โดย REINFORCEMENT algorithm ที่กล่าวถึงด้านบน  ส่วน intermediate rewards <img src="/notes/GAN4NLP/tex/b8ae38464533988ab8b2d86b5d5ca266.svg?invert_in_darkmode&sanitize=true" align=middle width=19.74750524999999pt height=22.465723500000017pt/> โดยการทำ Monte Carlo Rollout เพื่อสร้างประโยคมาหลายๆประโยคแล้วเอา reward จาก discriminator มาเฉลี่ย
 
-[Monte Carlo](https://en.wikipedia.org/wiki/Monte_Carlo_method)
 ## Reading List
 [GAN - NAACL 2019](https://drive.google.com/drive/folders/1E4uHe4_TD4yDJws3t1kXJQanUFJiqpBB)                  
 [Generative Adversarial Networks for Text Generation (blog post)](https://becominghuman.ai/generative-adversarial-networks-for-text-generation-part-1-2b886c8cab10)                 
